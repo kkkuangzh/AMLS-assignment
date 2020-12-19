@@ -20,7 +20,7 @@ Some packetages needed for this task are given here long with its version.
 + numpy 1.18.5
 + pandas 1.1.3
 + tensorflow 2.3.1
-+ face recognition 1.3.0
++ face_recognition 1.3.0
 
 A special facial feature extraction library is used here called face_recogniton, you may have to install it using
 ``` bash 
@@ -36,13 +36,13 @@ If everything is downloaded and installed, you can simply run the main.py to get
 An additional main.ipynb is provided with expected output, you can also run this file as each section can be run separately.
 
 ## Attentions
-Some functions such as model training and grid search functions, which takes a lot of time to process, are commented out in each task section in the default main.py file. You can simply uncomment them if you wish to see the training process. 
+Some functions such as model training and grid search functions, which takes a lot of time to process, are commented out in each task section in the default main.py file. You can uncomment them if you wish to see the training process. 
 
 The model trained in main.py won't be saved as the *checkpointer* is commented out in the model_.py in each folder of four tasks. If you want to wait and retrain a model, just delete the # checkpointer in the model_.py in each folder, but remember to change the name and path as it may cover the pretrained model.
 
 The dictionary of parameters used in grid search is smaller than experiment, that is, the number of parameters to be tuned is smaller, because I don't want it spends too much time here in grid search.
 
-*Import warnings* at the beginning of the main.py file is because when running grid search for SVM in task A1, some warnings of 'Precision is ill-defined and being set to 0.0 due to no predicted samples.' happens, which is unusal since I have provided features of both two classes to train, and the same algorithm appied in task A2 works.
+*Import warnings* at the beginning of the main.py file is because when running grid search for SVM in task A1, some warnings of 'Precision is ill-defined and being set to 0.0 due to no predicted samples.' happens, which is weird since I have provided features of both two classes to train, and the same grid search method used in task A2 works.
 
 The facial feaure extraction (load data in task A1 and A2) and grid search functions take some time to finish.
 
@@ -56,7 +56,7 @@ Using the main.ipynb file is more convienient to train and stop training a model
 * main.py: used to run the whole project.
 * main.ipynb: same as main.py, only with expected results and can be run separately for each section.
 * Datasets: empty folder which requires to put in four datasets.
-* A1 A2 B1 B2 contains preprocessing and model files used for each task.
+* A1 A2 B1 B2 contains preprocessing and model python files as well as pre-trained models used for each task.
 
 
 
