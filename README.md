@@ -1,4 +1,4 @@
-# AMLS-assignment
+# Cartoon face recognition
 
 ---
 You can get eveything that's needed for the assignment from [here](https://drive.google.com/drive/folders/144gfcSB9e0KBBcgpNtOWTIIfP2pvp6xA?usp=sharing).
