@@ -1,4 +1,16 @@
-# Cartoon face recognition
+# Image classificatio problems
+
+*This project involves four classification problems on two datasets.*
+
+Tasks and Datasets: 
+
+* (1) [CelebA dataset](https://mmlab.ie.cuhk.edu.hk/projects/CelebA.html):
+  + A1: gender
+  + A2: smiling
+* (2) [Cartoon dataset](https://google.github.io/cartoonset/):
+  + B1: face shape
+  + B2: eye color
+
 
 ---
 You can get eveything that's needed for the assignment from [here](https://drive.google.com/drive/folders/144gfcSB9e0KBBcgpNtOWTIIfP2pvp6xA?usp=sharing).
@@ -126,11 +138,6 @@ The number of parameters that are tuned in grid_search_for_svm_a2(x_train, x_tes
   - change the labels to one-hot form,
   - **relabel images with sunglasses to a new class**
 * models_b2.py: contains functions of training and evaluating both 5d-CNN model and 6d-CNN model.
-
-
-
-
-
 
 
 
